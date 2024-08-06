@@ -1,0 +1,31 @@
+Question,Correct Answer
+What is the main challenge of running inference for large transformer models?,The extremely high inference cost in both time and memory is a big bottleneck.
+What factors contribute to the high memory footprint during inference?,The need to store model parameters and intermediate states in memory during inference time.
+How does the attention mechanism affect inference cost?,The inference cost from the attention mechanism scales quadratically with input sequence length.
+What is the impact of parallelizability on the decoding process?,"Inference generation is autoregressive, making the process hard to parallelize."
+What are some general goals for model inference optimization?,"Reduce memory footprint, lower computation complexity, and reduce inference latency."
+How can memory footprint be reduced in model inference?,By using fewer GPU devices and less GPU memory.
+What role does smart batching play in model inference?,EffectiveTransformer packs consecutive sequences together to remove padding within one batch.
+How can network compression techniques improve inference?,"Through pruning, quantization, and distillation which reduce model size and computational needs."
+What is Knowledge Distillation and who introduced it?,"A method to build a smaller, cheaper model by transferring skills from a pre-trained model, introduced by Hinton et al. in 2015."
+How does DistilBERT achieve its performance efficiency?,By reducing parameters by 40% while maintaining 97% of BERT's performance and running 71% faster.
+What is the main objective of quantization in neural networks?,To reduce the model's memory and computational requirements while maintaining performance.
+How does Post-Training Quantization (PTQ) work?,It converts model weights to lower precision after the model is fully trained.
+What are the challenges associated with Transformer model quantization?,Simple low-precision quantization can lead to significant performance drop.
+What does Mixed-Precision Quantization involve?,Implements different precision levels for weights versus activation to manage quantization challenges.
+How is quantization at fine-grained granularity different from other types?,It involves quantizing individual components rather than the entire weight matrix at once.
+What is the Hessian AWare Quantization technique?,It identifies parameters sensitive to quantization by using the largest top eigenvalues of the Hessian.
+What is the main purpose of the Pruning technique in neural networks?,To reduce model size by trimming unimportant weights or connections.
+What does the Lottery Ticket Hypothesis propose?,A randomly initialized dense network contains a subset of subnetworks that can achieve optimal performance.
+How is magnitude pruning performed?,By trimming weights with the smallest absolute values.
+What is structured pruning and how does it benefit model inference?,It maintains a dense matrix multiplication form and adheres to hardware kernel support patterns.
+How does sparsity help in scaling up model capacity?,By allowing more model capacity with less computational burden through structured sparsity patterns.
+What is N:M Sparsity and how is it implemented?,"A sparsity pattern that works well with GPU optimizations, allowing certain weights to be zero."
+How does the Mixture-of-Experts architecture enhance transformer models?,Enhances the model's ability to scale by using different experts for different parts of the input.
+What are some memory saving designs in transformer models?,Involves strategies like CPU memory offloading to reduce memory usage during training.
+What is the impact of adaptive attention mechanisms?,Adjusts the amount of computation per token based on their importance to the model's output.
+How does outlier smoothing contribute to quantization efficiency?,"It smooths outlier features from activations to weights, enabling better quantization."
+What benefits does Quantization-Aware Training (QAT) offer?,"It fuses quantization into the training process, enhancing model performance in low-bit representation."
+What does the routine workflow of pruning entail?,"Includes training a dense network, pruning it, and optionally retraining to recover performance."
+How do second order information techniques optimize quantization?,Optimizes quantization by considering parameters' sensitivity based on the Hessian spectrum.
+What is the Gumbel-softmax trick and its application in sparsity?,"Used during training to select non-zero activations, enhancing sparsity by controlling which weights are active."

@@ -86,7 +86,11 @@ class RagBot:
         for question in questions:
             response = self.client.chat.completions.create(
                 model=self.model,
-                messages=[Message(role="user", content=question)]
+                messages=[
+                    {
+                        "role": "user",
+                        "content": question
+                    }(role="user", content=question)]
             )
             q_a_pairs.append((question, response.choices[0].message.content))
         return q_a_pairs

@@ -18,6 +18,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 from langchain_community.llms import Ollama
 import textwrap
+from langchain_community.document_loaders import WebBaseLoader
 from langchain_community.embeddings import OllamaEmbeddings
 import ollama
 from langchain_community.vectorstores import FAISS
@@ -32,28 +33,31 @@ os.environ['LANGCHAIN_PROJECT'] = 'rag'
 os.environ["LANGCHAIN_API_KEY"] = getpass.getpass(prompt='Please enter Langchain API key:')
 LLM = "mistral:7b"
 EMBEDDING = "mxbai-embed-large"
-qa_csv = '/Users/petrina/Desktop/Work24/rag-from-scratch/QAset/OlympicsMedals.csv'
-content_csv = '/Users/petrina/Desktop/Work24/rag-from-scratch/csv/olympics_medals_country_wise.csv'
-dataset_name = 'RAG_test_OlympicsMedalbyCountry'
-context = 'Olympics medal by country, mistral-7b'
-description="QA pairs about Olympics medal."
-topic = 'Olympics and mathematics'
+qa_csv = '/Users/petrina/Desktop/Work24/rag-from-scratch/QAset/TransformerModel.csv'
+dataset_name = 'RAG_InferenceWeb'
+context = 'large transformer model inference optimization, mistral-7b'
+description="QA pairs about large transformer model inference optimization."
+topic = 'large transformer model inference optimization'
 start_session = False
 is_created = True
 
 
-
-
 class RagBot:
-    def __init__(self, filepath, model: str = LLM):
+    def __init__(self, model: str = LLM):
         self._client = OpenAI(
             base_url = 'http://localhost:11434/v1',
             api_key='ollama', # required, but unused
         )
-        self._filepath = filepath
         self._model = model
         # Read and split text
-        loader = CSVLoader(file_path=self._filepath)
+        loader = WebBaseLoader(
+            web_paths=("https://lilianweng.github.io/posts/2023-01-10-inference-optimization/",),
+            bs_kwargs=dict(
+            parse_only=bs4.SoupStrainer(
+                class_=("post-content", "post-title", "post-header")
+                )
+            ),
+        )
         docs = loader.load()
         text_splitter = RecursiveCharacterTextSplitter(chunk_size=300, chunk_overlap=50)
         splits = text_splitter.split_documents(docs)
@@ -126,7 +130,7 @@ class RagBot:
 
 # Go through provided QA csv files and extract question and reference 
 df = pd.read_csv(qa_csv)
-inputs = df['Question Input'].tolist()
+inputs = df['Question'].tolist()
 outputs = df['Correct Answer'].tolist()
 qa_pairs = [{"question": q, "answer": a} for q, a in zip(inputs, outputs)]
 client = Client()
@@ -157,7 +161,7 @@ def predict_rag_answer_with_context(example: dict):
 
 # Evaluator LLM
 eval_llm = ChatOllama(model=LLM)
-rag_bot = RagBot(filepath=content_csv)
+rag_bot = RagBot()
 
 first_done=False
 # Type 1: Reference Answer Evaluator (output answer to reference answer)
@@ -261,7 +265,6 @@ if not third_done:
 
 # Continuous interaction with user
 
-rag_bot = RagBot(filepath=content_csv)
 while start_session:
     user_input = input("Please enter your query or type 'exit' to quit: ")
     if user_input.lower() == "exit":
