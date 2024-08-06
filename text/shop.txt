@@ -1,0 +1,70 @@
+Size
+S
+M
+L
+XL
+S
+M
+L
+XL
+S
+M
+L
+XL
+
+Color
+Red
+Blue
+Green
+Black
+White
+Yellow
+Blue
+Red
+Green
+Black
+White
+Yellow
+
+Store C
+
+Location
+Store A
+Store A
+Store B
+
+Brand
+Nike
+Adidas
+Puma
+Under Armour
+Reebok
+New Balance
+Nike
+Adidas
+Puma
+Under Armour
+Reebok
+New Balance
+
+Store A
+Store B
+Store C
+
+Store B
+
+Quantity
+10
+5
+8
+Store B 12
+7
+Store C 3
+6
+9
+4
+Store A 11
+5
+Store C 2
+
+

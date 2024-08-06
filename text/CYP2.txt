@@ -1,0 +1,433 @@
+1. What are the 4 types of data sources? List each of them, give a brief definition, and at
+least one example. Why might you want to give 2 examples of each? To practice your
+understanding of these topics!
+1. L-data
+
+● Definition: “Life record data or information concerning the person that can be obtained
+
+from their life history or life record” (Pervin, Cervone, & John, 2009, p. 38).
+
+● Example 1: Academic records showing grades and educational achievements.
+● Example 2: Criminal records indicating past arrests or convictions.
+
+● Definition: “Observer data or information provided by knowledgeable observers such as
+
+parents, friends, or teachers” (Pervin, Cervone, & John, 2009, p. 38).
+
+● Example 1: A supervisor’s evaluation of an employee’s job performance.
+● Example 2: Peer ratings of sociability and friendliness in a social setting.
+
+● Definition: “Test data or information obtained from experimental procedures or
+
+standardized tests” (Pervin, Cervone, & John, 2009, p. 38).
+● Example 1: Scores from an intelligence test (e.g., IQ test).
+● Example 2: Results from a behavioral experiment measuring reaction time to stimuli.
+
+2. O-data
+
+3. T-data
+
+4. S-data
+
+● Definition: “Self-reporting data or information provided by the subject” (Pervin, Cervone,
+
+● Example 1: Responses to the Big Five Inventory, a questionnaire assessing the five
+
+● Example 2: Answers on a self-esteem scale where individuals rate their own feelings of
+
+& John, 2009, p. 38).
+
+major dimensions of personality.
+
+self-worth.
+
+2. Some research in personality psychology uses the experimental approach, other
+research uses the correlational approach. Define each approach briefly and give an
+example. Why are both needed? Let's say you want to study the link between negative
+emotion and suicidal ideation--could you justify ethically doing an experimental study on
+that topic?
+Experimental Approach:
+
+● Definition: An approach to research in which the experimenter manipulates a variable of
+
+interest, usually by assigning different research participants, at random, to different
+experimental conditions.
+
+● Example: A study investigating the impact of sleep deprivation on cognitive performance.
+
+Participants are randomly assigned to either a sleep-deprived group or a well-rested
+group, and their cognitive performance is measured and compared.
+
+Correlational Approach:
+
+● Definition: An approach to research in which existing individual differences are measured
+
+and related to one another, rather than being manipulated as in experimental research.
+
+● Example: A study examining the relationship between levels of physical activity and
+
+happiness in a large sample of adults. Researchers collect data on participants' physical
+activity and happiness levels and analyze the correlation between these variables.
+
+Why Both Approaches Are Needed
+
+● Comprehensive Understanding: The experimental approach provides insights into
+
+causation by controlling variables and manipulating conditions, while the correlational
+approach identifies natural relationships and patterns in real-world settings. Together,
+they offer a more comprehensive understanding of psychological phenomena.
+
+● Practical and Ethical Constraints: Some research questions cannot be addressed
+
+experimentally due to practical or ethical constraints. Correlational studies allow
+researchers to investigate these questions by observing naturally occurring variables.
+
+Studying the Link Between Negative Emotion and Suicidal Ideation
+Ethical Considerations:
+
+● Experimental Study: Conducting an experimental study on the link between negative
+
+emotion and suicidal ideation raises significant ethical concerns. Manipulating variables
+that could induce negative emotions or suicidal thoughts is highly unethical and could
+cause harm to participants.
+
+● Correlational Study: A correlational approach is more appropriate and ethical for
+
+studying this link. Researchers can collect data on individuals' experiences of negative
+emotions and any reports of suicidal ideation through surveys, interviews, or existing
+medical records. This method avoids directly inducing harmful states while still allowing
+for the investigation of associations between these variables.
+
+Justification for Ethical Considerations
+Given the sensitive nature of suicidal ideation, an experimental study would not be ethically
+justifiable because:
+1. Risk of Harm: Manipulating emotional states to observe effects on suicidal ideation could lead
+to severe psychological distress or actual harm to participants.
+2. Informed Consent and Beneficence: Ethical research requires minimizing harm and
+maximizing benefits. Inducing negative emotions or suicidal thoughts violates these principles.
+3. Alternative Methods: Correlational studies, longitudinal research, and naturalistic
+observations can provide valuable insights without compromising participant safety.
+
+In conclusion, while both experimental and correlational approaches are essential in personality
+psychology for different reasons, studying sensitive topics like the link between negative
+emotion and suicidal ideation must prioritize ethical considerations, making the correlational
+approach the appropriate choice in this context.
+
+3. What are the nomothetic and idiographic approaches to personality assessment? What
+can you say about their (relative) strengths and weaknesses?
+Nomothetic Approach
+
+● Definition: Strategies of “assessment and research in which the primary goal is to identify
+a common set of principles or laws that apply to all members of a population of persons”
+(Pervin, Cervone, & John, 2009, p. 42).
+
+● Strengths:
+
+- Generalizability: By examining traits and behaviors across large samples, the
+
+nomothetic approach provides findings that can be generalized to broader
+populations.
+
+- Comparability: Standardized measures allow for direct comparisons between
+individuals, making it easier to identify common traits and predict behaviors.
+
+- Efficiency: It uses standardized tests and quantitative methods, which are
+
+efficient and can be administered to large groups relatively quickly.
+
+● Weaknesses:
+
+-
+
+Individual Uniqueness: It may overlook the unique aspects of an individual's
+personality, focusing instead on general trends and averages.
+
+- Context Insensitivity: The approach might fail to account for the contextual factors
+
+that influence personality, such as culture, environment, or specific life
+experiences.
+
+● Example: The Big Five Inventory, which measures five broad personality traits
+
+(Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism).
+
+Idiographic Approach
+
+● Strengths:
+
+● Definition: Strategies of “assessment and research in which the primary goal is to obtain
+
+a portrait of the potentially unique, idiosyncratic individual” (Pervin, Cervone, & John,
+2009, p. 41).
+
+-
+
+-
+
+In-depth Understanding: Provides a rich, detailed understanding of an individual’s
+personality, capturing the nuances and complexities of their personal
+experiences.
+
+- Contextual Sensitivity: It takes into account the specific contexts and
+
+environments that shape an individual’s personality, providing a more holistic
+view.
+
+- Personal Relevance: The findings are highly relevant to the individual being
+
+studied, often leading to insights that are directly applicable to their life.
+
+Limited Generalizability: Findings from idiographic assessments cannot be easily
+generalized to other individuals or populations, as they focus on individual cases.
+
+- Resource Intensive: This approach is often time-consuming and requires
+
+significant resources to gather and analyze detailed qualitative data.
+
+- Subjectivity: The qualitative nature of the data can introduce subjectivity, making
+
+it harder to replicate findings or draw objective conclusions.
+
+● Weaknesses:
+
+● Example: Case studies and narrative interviews that explore an individual’s personal
+
+history and unique traits.
+
+4. What do you know about correlations? Make sure you cover: (a) what is the highest
+and lowest number a correlation can be? (b) what do these correlations mean: +.30? .08?
+-.45? (c) What is the correlation between taking a daily aspirin and living without a heart
+attack for the next 10 years? (d) What is a typical correlation in research, such as in a
+study of the link between self-reported extraversion and attaining a leadership function in
+your sorority/fraternity? You read a study on this topic and the authors claim a
+correlation of .89--what do you think about that result? (e) Does correlation imply a
+causal influence of variable A on variable B? Illustrate your answer by discussing the
+finding that physical height is correlated with performance on intelligence tests.
+
+Highest and Lowest Number a Correlation Can Be
+
+● The correlation coefficient ranges from -1.00 to +1.00.
+● +1.00: Perfect positive correlation, where an increase in one variable perfectly predicts
+
+● -1.00: Perfect negative correlation, where an increase in one variable perfectly predicts a
+
+an increase in the other.
+
+decrease in the other.
+
+● 0: No correlation, indicating no linear relationship between the variables.
+
+Interpretation of Specific Correlations
+
+● +.30: A moderate positive correlation, indicating a moderate tendency for one variable to
+
+● .08: A weak positive correlation, suggesting a very slight tendency for one variable to
+
+● -.45: A moderate negative correlation, indicating a moderate tendency for one variable to
+
+increase as the other increases.
+
+increase as the other increases.
+
+decrease as the other increases.
+
+Correlation Between Daily Aspirin and Living Without a Heart Attack
+
+● The correlation between taking a daily aspirin and living without a heart attack for the
+
+next 10 years is .08. This indicates a small positive relationship, meaning taking a daily
+aspirin is slightly associated with a reduced risk of heart attack.
+
+Typical Correlation in Research
+
+● Typical correlations in psychological and social research are often around .30 to .40.
+
+This indicates a moderate relationship.
+
+● Study Example: If a study reports a correlation of .89 between self-reported extraversion
+and attaining a leadership function in a sorority/fraternity, this result is unusually high for
+psychological research. Such a high correlation is rare and might indicate potential
+issues like measurement bias, a very specific and homogenous sample, or possibly even
+errors in the study's methodology.
+
+Correlation and Causality
+
+● Correlation Does Not Imply Causation: A correlation between two variables does not
+
+mean that one variable causes the other to change.
+
+● Example: The correlation between physical height and performance on intelligence tests.
+● Finding: Taller individuals might score slightly higher on intelligence tests.
+● Explanation: This does not mean being taller causes higher intelligence. Several third
+variables could explain this correlation, such as nutrition, socioeconomic status, and
+overall health, which can influence both height and cognitive development. These
+confounding factors can lead to a spurious correlation where the observed relationship is
+due to shared influences rather than a direct causal link between height and intelligence.
+
+5. Define reliability as presented in lecture and make a table with the 4 major kinds of
+reliability indexes, showing what aspect of generalizability each of them covers. For
+example, interjudge agreement examines generalizability across ... Is a retest correlation
+of .80 OK? How about a retest correlation of .35?
+Reliability: The extent to which “observations are stable, dependable, and can be replicated”
+(Pervin, Cervone, & John, 2009, p. 67).
+
+Type of Reliability
+
+Aspect of Generalizability
+Covered
+
+Description
+
+Test-Retest Reliability
+
+Generalizability across time
+
+Parallel Forms Reliability
+
+Generalizability across
+different forms of the test
+
+Split-Half/Internal
+Consistency Reliability
+
+Generalizability across items
+within the same test
+
+Measures the consistency of
+results when the same test is
+administered to the same
+individuals at different points
+in time. A high retest
+reliability indicates that the
+test produces stable results
+over time.
+
+Assesses the consistency of
+results across different
+versions or forms of the same
+test. If two different forms of a
+test produce similar results,
+the test is considered to have
+high parallel form reliability.
+
+Evaluates the consistency of
+results across items within a
+single test. It is often
+measured using Cronbach's
+alpha, which assesses how
+well the items on a test
+measure the same construct.
+
+Interjudge/Interrater
+Agreement
+
+Generalizability across
+different observers or raters
+
+Examines the consistency of
+measurements when different
+observers or raters assess
+the same individuals. High
+interjudge reliability indicates
+that different raters provide
+similar ratings or
+assessments.
+
+Evaluating Retest Correlations
+
+● Retest Correlation of .80: A retest correlation of .80 is considered good. It indicates high
+reliability, meaning that the test produces consistent results over time and can be trusted
+to yield stable measurements of the construct being assessed.
+
+● Retest Correlation of .35: A retest correlation of .35 is generally considered low and
+
+indicates poor reliability. This suggests that the test may not produce stable results over
+time, making it less dependable for measuring the construct consistently.
+
+6. Define validity and the 3 major aspects we need to consider when we think about
+validity, as defined in lecture. Explain each of the 3 aspects using an example. Ideally,
+find your own example. If you cannot, use the example from lecture (i.e., if you used Prof.
+John's cool new Conscientiousness test to pick your new roommates--what validity
+questions should you consider?).
+Validity: The extent to which “observations reflect the phenomena or constructs of interest to us
+(also “construct validity”)” (Pervin, Cervone, & John, 2009, p. 67).
+
+Three Major Aspects of Validity
+1. Content Validity:
+
+2. Criterion Validity:
+
+● Definition: Content validity refers to the extent to which a test comprehensively covers
+the construct it aims to measure. It ensures that the test items are representative of the
+entire domain of the construct.
+
+● Example: Suppose I am developing a test to measure mathematical ability in high school
+
+students. To ensure content validity, the test should include items that cover all relevant
+areas of high school mathematics, such as algebra, geometry, and calculus, rather than
+focusing solely on one area.
+
+● Definition: Criterion validity evaluates how well a test correlates with an outcome or
+
+criterion that it should be related to. This can be assessed through concurrent validity
+(correlation with current outcomes) or predictive validity (correlation with future
+outcomes).
+
+● Example: Imagine developing a new job performance assessment tool for sales
+
+employees, to establish criterion validity, I would compare the test scores with actual
+sales performance data. If higher test scores correlate with better sales performance, the
+test has good criterion validity.
+
+3. Construct Validity:
+
+● Definition: Construct validity assesses whether a test truly measures the theoretical
+
+construct it is intended to measure. This involves evaluating the test's relationships with
+other variables and ensuring it behaves as expected according to the theory.
+
+● Example: If you create a test to measure anxiety, you would examine its construct
+
+validity by looking at its correlations with other measures of anxiety and related
+constructs, such as stress and depression. If the test scores correlate highly with other
+anxiety measures and moderately with related constructs like stress, it has good
+construct validity.
+
+Using Prof. John's cool new Conscientiousness test to pick your new roommates, I would
+consider the following validity questions:
+1. Content Validity:
+
+● Question: Does the Conscientiousness test cover all aspects of conscientiousness, such
+
+as organization, dependability, diligence, and punctuality?
+
+● Example: Review the test items to ensure they include questions about keeping
+
+commitments, maintaining a tidy living space, managing time effectively, and following
+through on tasks.
+
+2. Criterion Validity:
+
+● Question: Does the test predict relevant outcomes, such as the cleanliness and
+
+orderliness of the roommates' living spaces and their reliability in shared responsibilities?
+● Example: Compare the test scores with current ratings of cleanliness and reliability from
+existing roommates. Additionally, track these outcomes over the first few months to see if
+higher scores on the Conscientiousness test predict better living habits and shared
+responsibilities.
+
+3. Construct Validity:
+
+● Question: Does the test accurately measure the construct of conscientiousness, and
+
+does it correlate with other established measures of conscientiousness and related
+constructs?
+
+● Example: Administer another well-validated Conscientiousness measure, such as a
+
+subscale of the Big Five Inventory, alongside Prof. John's test. Evaluate the correlation
+between the scores. Also, examine correlations with related traits, such as
+agreeableness (moderate positive correlation), and unrelated traits like extraversion (low
+correlation).
+
+
